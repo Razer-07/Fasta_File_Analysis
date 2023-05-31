@@ -1,1 +1,32 @@
-# Fasta_File_Analysis
+## Fasta_File_Analysis
+
+# Instructions:
+Write a Python code for scoring the provided "db.fasta" file sequences according to the following criteria:
+
+Residue	Score
+A	10
+R	9
+N	8
+D	7
+C	6
+Q	5
+E	4
+G	3
+H	2
+I	1
+L	-1
+K	-2
+M	-3
+F	-4
+P	-5
+S	-6
+T	-7
+W	-8
+Y	-9
+V	-10
+X	0
+
+(look on the internet what fasta files are in case you are not familiar with them)
+The Python script output must be a text file with four columns: The Sequence_Identifiers, the Sequence_Length in residues, the Total_Score and The Mean_Score (Total_Score/Length).
+The lines must be sorted according to the Mean_Score, from highest to lowest value.
+As an output example, the file db.fasta.score is provided. The Mean_Score must have a precision between 3 and 5 decimals.
