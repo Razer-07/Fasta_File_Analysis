@@ -2,5 +2,5 @@
 
 # Instructions: 
 
-[Link to Example File](test_instructions.txt)
+[Link to Instruction File](test_instructions.txt)
 
